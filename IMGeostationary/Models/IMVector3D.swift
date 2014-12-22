@@ -50,15 +50,17 @@ class IMVector3D {
 
     }
     
-    //        return this.x * v.x + this.y * v.y + this.z * v.z;
 
-    func productoEscalar (v : IMVector3D) {
+    func dotProduct (v : IMVector3D) -> Double {
+        
+        return self.x * v.x + self.y * v.y + self.z * v.z
         
     }
     
-    //        return Math.acos( this.productoEscalar(v) / (this.modulo() * v.modulo()) );
 
-    func angulo (v : IMVector3D) {
+    func angulo (v : IMVector3D) -> Double {
+        
+        return acos(dotProduct(v) / (self.mod() * v.mod()))
         
     }
     
