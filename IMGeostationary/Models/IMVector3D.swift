@@ -58,14 +58,22 @@ class IMVector3D {
     }
     
 
-    func angulo (v : IMVector3D) -> Double {
+    func angle (v : IMVector3D) -> Double {
         
         return acos(dotProduct(v) / (self.mod() * v.mod()))
         
     }
     
-    func angulov2 (v : IMVector3D, positiveDirection : IMVector3D) {
-    
+    func anglev2 (v : IMVector3D, positiveDirection : IMVector3D) -> Double {
+        
+        var angle : Double = self.angle(v)
+        var auxAngle : Double = v.angle(positiveDirection)
+        
+        if ( auxAngle > (90 * M_PI / 180.0)){
+            angle = -angle
+        }
+        
+        return angle
     }
     
     
