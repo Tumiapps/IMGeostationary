@@ -8,6 +8,16 @@
 
 import UIKit
 
-class IMPlanet: NSObject {
-   
+public class IMPlanet: NSObject {
+    
+    public let radiusPLanet : Float
+    public let radiusOrbitGeostationary : Float
+    
+    public init(rP: Float, rOG: Float ){
+        
+        self.radiusPLanet = rP
+        self.radiusOrbitGeostationary = rOG
+    }
+    
+    
 }

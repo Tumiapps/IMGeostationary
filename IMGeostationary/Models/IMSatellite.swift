@@ -8,6 +8,7 @@
 
 import UIKit
 
-class IMSatellite: NSObject {
+public class IMSatellite: NSObject {
    
+ 
 }
