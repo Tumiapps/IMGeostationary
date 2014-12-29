@@ -10,12 +10,22 @@ import UIKit
 
 public class IMSatellite {
    
-    private let position : IMVector3D?
+    private var position : IMVector3D
     
-
-    func placeGeostationary (planet : IMPlanet, angle : Double ) -> IMVector3D {
+    init(){
         
-        return IMVector3D (valourX: cos(angle) , valourY: sin(angle), valourZ: 0.0)
+        self.position = IMVector3D()
+    }
+    
+    func getPosition() -> IMVector3D{
+        return self.position
+    }
+
+    func placeGeostationary (planet : IMPlanet, angle : Double )  {
+        
+        self.position.setX(cos(angle) * planet.getRadiusOrbitGeostationary())
+        self.position.setY(sin(angle) * planet.getRadiusOrbitGeostationary())
+        self.position.setZ(0.0)
     }
  
 }

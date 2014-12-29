@@ -10,13 +10,21 @@ import UIKit
 
 public class IMPlanet {
     
-    public let radiusPLanet : Float
-    public let radiusOrbitGeostationary : Float
+    public let radiusPLanet : Double
+    public let radiusOrbitGeostationary : Double
     
-    public init(rP: Float, rOG: Float ){
+    public init(rP: Double, rOG: Double ){
         
         self.radiusPLanet = rP
         self.radiusOrbitGeostationary = rOG
+    }
+    
+    func getRadiusPlanet() -> Double{
+        return self.radiusPLanet
+    }
+    
+    func getRadiusOrbitGeostationary() -> Double {
+        return self.radiusOrbitGeostationary
     }
     
     

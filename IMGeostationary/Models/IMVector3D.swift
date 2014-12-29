@@ -10,9 +10,9 @@ import UIKit
 
 class IMVector3D {
    
-    private let x : Double
-    private let y : Double
-    private let z : Double
+    private var x : Double
+    private var y : Double
+    private var z : Double
     
     init () {
         
@@ -31,7 +31,17 @@ class IMVector3D {
         
     }
     
-  
+    func setX (x : Double) {
+        self.x = x
+    }
+    
+    func setY (y : Double) {
+        self.y = y
+    }
+    
+    func setZ (z : Double) {
+        self.z = z
+    }
     
     
     func mod() -> Double{
