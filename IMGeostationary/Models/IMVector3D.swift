@@ -81,7 +81,7 @@ class IMVector3D {
         var angle : Double = self.angle(v)
         var auxAngle : Double = v.angle(positiveDirection)
         
-        if ( auxAngle > (90 * M_PI / 180.0)){
+        if ( auxAngle > (toRadians(90))){
             angle = -angle
         }
         

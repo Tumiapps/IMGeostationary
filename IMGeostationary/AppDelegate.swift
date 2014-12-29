@@ -16,6 +16,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        var angles = Array<Double>()
+        var latitudeObserver : Double = toRadians(35.1)
+        var longitudeObserver : Double = toRadians(-3.5)
+        var angleSatellite : Double = toRadians(86.5)
+        
+        
+        
+        var calculator = IMCalculator()
+
+
+        angles = calculator.calculatorPositionSatellite(latitudeObserver, longitude: longitudeObserver, angleSatellite: angleSatellite)
+        
+        println( toDegrees(angles[0]) )
+        println( toDegrees(angles[1]) )
+        
         return true
     }
 

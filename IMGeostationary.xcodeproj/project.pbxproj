@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F58EFC51A51E3CD00A7F08B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F58EFC41A51E3CD00A7F08B /* Utils.swift */; };
 		2FB615901A375D03008DF3E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB6158F1A375D03008DF3E4 /* AppDelegate.swift */; };
 		2FB615951A375D03008DF3E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB615931A375D03008DF3E4 /* Main.storyboard */; };
 		2FB615971A375D03008DF3E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB615961A375D03008DF3E4 /* Images.xcassets */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F58EFC41A51E3CD00A7F08B /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		2FB6158A1A375D03008DF3E4 /* IMGeostationary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMGeostationary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FB6158E1A375D03008DF3E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FB6158F1A375D03008DF3E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				2FB615981A375D03008DF3E4 /* LaunchScreen.xib */,
 				2FB6158D1A375D03008DF3E4 /* Supporting Files */,
 				2FB615B81A376CBD008DF3E4 /* IMCalculator.swift */,
+				2F58EFC41A51E3CD00A7F08B /* Utils.swift */,
 			);
 			path = IMGeostationary;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				2FB615B31A3768EE008DF3E4 /* IMPlanet.swift in Sources */,
 				2FB615B51A37690E008DF3E4 /* IMSatellite.swift in Sources */,
 				2FB615901A375D03008DF3E4 /* AppDelegate.swift in Sources */,
+				2F58EFC51A51E3CD00A7F08B /* Utils.swift in Sources */,
 				2FB615B71A376932008DF3E4 /* IMVector3D.swift in Sources */,
 				2FB615B11A3768C1008DF3E4 /* IMAntenna.swift in Sources */,
 				2FB615B91A376CBD008DF3E4 /* IMCalculator.swift in Sources */,
@@ -431,6 +435,7 @@
 				2FB615AB1A375D03008DF3E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FB615AC1A375D03008DF3E4 /* Build configuration list for PBXNativeTarget "IMGeostationaryTests" */ = {
 			isa = XCConfigurationList;
@@ -439,6 +444,7 @@
 				2FB615AE1A375D03008DF3E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
