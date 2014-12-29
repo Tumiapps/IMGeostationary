@@ -29,8 +29,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         angles = calculator.calculatorPositionSatellite(latitudeObserver, longitude: longitudeObserver, angleSatellite: angleSatellite)
         
-        println( toDegrees(angles[0]) )
-        println( toDegrees(angles[1]) )
+        println ("Acimut : \(toDegrees(angles[0]))")
+        println ("Elevation angle : \(toDegrees(angles[1]))")
+
         
         return true
     }
