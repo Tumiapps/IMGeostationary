@@ -18,9 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         var angles = Array<Double>()
-        var latitudeObserver : Double = toRadians(35.1)
-        var longitudeObserver : Double = toRadians(-3.5)
-        var angleSatellite : Double = toRadians(86.5)
+        var latitudeObserver : Double = toRadians(37.17)
+        var longitudeObserver : Double = toRadians(-3.58)
+        var angleSatellite : Double = toRadians(83.8)
         
         
         

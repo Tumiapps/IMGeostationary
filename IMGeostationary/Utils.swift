@@ -18,5 +18,5 @@ func toRadians (angle : Double) -> Double {
 
 func toDegrees (radians : Double) ->  Double {
     
-    return radians * (180.0 * M_PI)
+    return radians * 180.0 / M_PI
 }
