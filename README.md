@@ -1,7 +1,7 @@
-IMGeostationary 0.5
-=====================
+IMGeostationary
+===============
 
-Satellite Finder
+Satellite Finder | 0.5
 
 Enter your location (latitudeObserver and longitudeObserver) and the angle of the satellite (angleSatellite) in AppDelegate to calculate the azimuth and elevation.
 
