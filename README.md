@@ -1,6 +1,14 @@
-IMGeostationary
-===============
+IMGeostationary 0.5
+=====================
 
-UNDER CONSTRUCTION
+Satellite Finder
 
-App to calculate the position of geostationary satellites
+Enter your location (latitudeObserver and longitudeObserver) and the angle of the satellite (angleSatellite) in AppDelegate to calculate the azimuth and elevation.
+
+ 
+What is azimuth and elevation?
+
+http://whatis.techtarget.com/definition/azimuth-and-elevation
+
+
+
